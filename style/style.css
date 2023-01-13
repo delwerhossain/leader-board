@@ -231,6 +231,7 @@
         padding: 25px;
         position: relative;
         top: 60px;
+        padding-bottom: 15%;
 
     }
 
@@ -258,3 +259,34 @@
         justify-content: center;
         gap: 15px;
     }
+    .main-footer{display:grid; margin: 0px 35px;
+        grid-template-columns: repeat(3, 1fr); gap: 35px;
+
+   }
+   .footer img{
+    width: 100%;
+   }
+   .heding{
+    font-size: 18px;
+   }
+   .perag{
+    color: red;
+   }
+   .str{display:grid;width:100px ;
+grid-template-columns: repeat(4,1fr);
+}
+.str img{ width: 100%;}
+.review-part{
+    display: flex; gap: 5%;  align-items: center;
+}
+.rating{
+    color: #D1D1D1;
+}
+    .time{
+        display: flex; align-items: center;  background-color: rgb(255, 206, 223);padding-right: 4%; padding-top: 1%;
+        padding-bottom: 1%; border-radius: 15px; color: rgb(255, 3, 87);
+       
+    }
+    .clk{width: 40px; display: flex; align-items: center;}
+    .clk img{width:60%;padding-left: 12px;}
+    .hr{font-size: 12px;}
