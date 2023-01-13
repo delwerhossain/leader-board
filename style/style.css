@@ -1,0 +1,260 @@
+    /* import part  */
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Signika+Negative&family=Work+Sans&display=swap');
+
+
+    /* css all variables */
+
+    :root {
+        --main-color: #562EFF;
+        --all-white: #FFFFFF;
+        --main-bg-color: #f8f4fc;
+    }
+
+    /* for all part  */
+
+    * {
+        margin: 0;
+        font-family: Poppins;
+    }
+
+    /* body part section  */
+
+
+    body {
+        background-color: var(--main-bg-color);
+    }
+
+
+    /* all image resize part */
+    .logo-img img,
+    .profile-img img {
+        width: auto;
+        height: 30px;
+    }
+
+
+    /* nav-bar  part */
+
+
+    header {
+        width: 100%;
+        height: 60px;
+        background: var(--main-color);
+        /* position: fixed; */
+    }
+
+    .nav-bar {
+        padding: 12.5px 0px 5px 0px;
+
+    }
+
+    .nav-bar,
+    .nav-part1,
+    .nav-part2,
+    .menu-bar ul {
+        display: flex;
+
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        color: var(--all-white);
+    }
+
+    .nav-part1 {
+        gap: 10px;
+        position: relative;
+        left: 10%;
+        align-items: center;
+    }
+
+    .nav-part2 {
+        gap: 10px;
+
+        position: relative;
+        right: 10%;
+
+        align-items: center;
+    }
+
+    .nav-part2 ul {
+        list-style: none;
+        gap: 10px;
+    }
+
+
+    /* main section part  */
+
+    .container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+
+    }
+    /* --------------  player part  ------------------- */
+
+    .player-container{
+        border-bottom: 1px solid #D1D1D1;
+    }
+
+    .player-blog-part img {
+        width: 56px;
+        height: 56px;
+
+    }
+
+    .player-heading {
+        margin: 35px;
+        color: var(--main-color);
+    }
+
+    /* grid area define part  */
+    .player1 {
+        grid-area: player1;
+    }
+
+    .player2 {
+        grid-area: player2;
+    }
+
+    .player3 {
+        grid-area: player3;
+    }
+
+    .player4 {
+        grid-area: player4;
+    }
+
+    .player5 {
+        grid-area: player5;
+    }
+
+    .player6 {
+        grid-area: player6;
+    }
+
+    .player-blog-part {
+        background-color: var(--all-white);
+        width: 870px;
+        height: 679px;
+        border-radius: 15px;
+        padding: 25px;
+        position: relative;
+        top: 60px;
+
+    }
+
+    /* grid part  */
+    .top-player {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "player1 player2 player3"
+            "player4 player5 player6";
+
+
+
+    }
+
+    .player-1,
+    .player-2,
+    .player-3,
+    .player-4,
+    .player-5,
+    .player-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+
+
+
+
+    /* --------------  blog part  -------------------  */
+    
+
+
+    .blog-container{
+        border-bottom: 1px solid #D1D1D1;
+    }
+
+    .player-blog-part img {
+        width: 56px;
+        height: 56px;
+
+    }
+
+    .blog-heading {
+        margin: 35px;
+        color: var(--main-color);
+    }
+
+    /* grid area define part  */
+    .blog1 {
+        grid-area: blog1;
+    }
+
+    .blog2 {
+        grid-area: blog2;
+    }
+
+    .blog3 {
+        grid-area: blog3;
+    }
+
+    .blog4 {
+        grid-area: blog4;
+    }
+
+    .blog5 {
+        grid-area: blog5;
+    }
+
+    .blog6 {
+        grid-area: blog6;
+    }
+
+    .player-blog-part {
+        background-color: var(--all-white);
+        width: 870px;
+        height: 679px;
+        border-radius: 15px;
+        padding: 25px;
+        position: relative;
+        top: 60px;
+
+    }
+
+    /* grid part  */
+    .top-blog {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-template-areas:
+            "blog1 blog2 "
+            "blog3 blog4 ";
+
+
+
+    }
+
+    .blog-1,
+    .blog-2,
+    .blog-3,
+    .blog-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
