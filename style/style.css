@@ -360,6 +360,7 @@
         .player-5,
         .player-6 {
             gap: 6px;
+            flex-direction: column;
         }
 
         .player-blog-part {
